@@ -54,7 +54,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: 2px solid aquamarine; */
+  outline: 2px solid aquamarine;
 }
 
 .visually-hidden {
@@ -162,6 +162,20 @@ img {
 
 .hero-section {
   background-color: var(--title-text-color);
+}
+
+.hero-container {
+  width: 1440px;
+  height: 600px;
+
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
   padding-top: 188px;
   padding-bottom: 188px;
@@ -181,6 +195,7 @@ img {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 48px;
+  /* padding-top: 188px; */
 }
 
 .hero-button {
